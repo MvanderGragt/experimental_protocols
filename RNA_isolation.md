@@ -1,6 +1,9 @@
-RNA isolation with TRI reagent [in the fume hood]
+# RNA isolation with TRI reagent [in the fume hood]
 
-Needed materials and reagents: (all RNase-free)
+## Purpose
+With this protocol total RNA of plant material is isolated.
+
+## Materials (all RNase-free)
 •	TRI reagent (homemade Trizol)
 •	Chloroform (fresh)
 •	Isopropanol (= 2-propanol)
@@ -12,14 +15,14 @@ Needed materials and reagents: (all RNase-free)
 •	autoclaved yellow and blue tips
 •	centrifuge with cooling down option 4°C
 
-
+## Methods
 1.	Grind frozen tissue (use 1.5 ml epps for trichomes).
 2.	Weigh input material (max. 100 mg).
 3.	Add 750 µl of TRI reagent (for max. 100mg of tissue). Vortex thoroughly.
 4.	Add 250µl of mQ. Vortex shortly.
 5.	Incubate for 5’ at RT with occasional mixing.
-  a.	Optional: Centrifuge at 5,000 rcf for ~1’ to get rid of debris
-  b.	Optional: Transfer supernatant to a fresh 2 ml epp (Safe-Lock).
+  *a.	Optional: Centrifuge at 5,000 rcf for ~1’ to get rid of debris.*
+  *b.	Optional: Transfer supernatant to a fresh 2 ml epp (Safe-Lock).*
 6.	Add 200 µl of chloroform. 
 7.	Shake for 15’’.
 8.	Incubate for 2-3’ at RT with occasional mixing.
@@ -39,5 +42,5 @@ Needed materials and reagents: (all RNase-free)
 22.	Discard supernatant (Be careful for losing the pellet with pouring. Pipet out rest).
 23.	Dry the pellet for 2-5’ at RT in the fume hood.
 24.	Resuspend the pellet in 32 µl of mQ (wait 60’ before subsequent use).
-  a.	Optional: RNA can be resuspended for 2-3’ at 60°C.
+  *a.	Optional: RNA can be resuspended for 2-3’ at 60°C.*
 
