@@ -1,4 +1,4 @@
-# Primer design for Stemloop PCR:
+# Primer design for Stemloop RT-PCR:
 Two primers need to be designed for each unique miRNA. For the first phase, the Stemloop RT, a Stemloop RT primer 
 needs to be made. This primer consists of the universal stemloop RT primer to which the 5’ 6 nt of the reverse complement DNA
 sequence are added at the 3’.
@@ -24,7 +24,7 @@ To make the temperature equal to that of the universal reverse primer (GTGCAGGGT
 *forward primer (inc. extra nt):*<br/>
 ggacTTTGGATTGAAGGGA, Tm = 55&deg;C<br/>
 
-#### Stemloop-RT
+#### Stemloop RT
 To make the RT primer (used for reverse transcriptase) take the miRNA sequence, convert to DNA and than complement.
 Add to the universal RT primer (TCGTATCCAGTGCAGGGTCCGAGGTATTCGCACTGGATACGAC) the last 6 nucleotides in reverse order (last nucleotide first, than 5th, 4th, 3rd, 2nd and first).
 
