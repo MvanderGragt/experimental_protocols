@@ -9,4 +9,27 @@ of which 6 nt at the 3’-end are removed. At the 5’-end nts are added to incr
 ![stemloopRT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2225395/bin/1746-4811-3-12-1.jpg)<br/>
 *Varkonyi-Gasic et al., 2007*<br/>
 
-<span style="color:red">some **This is Red Bold.** text</span>
+### Example:
+#### miRNA159<br/>
+UUUGGAUUGAAGGGAGCUCUA, RNA<br/>
+
+#### End-point PCR
+To make the forward primer (for end-point PCR) take the miRNA sequence and convert to DNA, take all except the last 6 nts.<br/>
+TTTGGATTGAAGGGA**GCTCTA**, DNA<br/>
+
+*forward primer:*<br/>
+TTTGGATTGAAGGGA, Tm = 40.6&deg;C (calculated with OligoCalc, salt adjusted)<br/>
+To make the temperature equal to that of the universal reverse primer (GTGCAGGGTCCGAGGT, Tm = 55.9&deg;C, some nts are added.<br/>
+
+*forward primer (inc. extra nt):*<br/>
+ggacTTTGGATTGAAGGGA, Tm = 55&deg;C<br/>
+
+#### Stemloop-RT
+To make the RT primer (used for reverse transcriptase) take the miRNA sequence, convert to DNA and than complement.
+Add to the universal RT primer (TCGTATCCAGTGCAGGGTCCGAGGTATTCGCACTGGATACGAC) the last 6 nucleotides in reverse order (last nucleotide first, than 5th, 4th, 3rd, 2nd and first).
+
+AAACCTAACTTCCCTCGAGAT, comp<br/>
+**TAGAGC**TCCCTTCAATCCAAA, revcomp<br/>
+
+*RT primer:*&nbsp;&nbsp;&nbsp;gtcgtatccagtgcagggtccgaggtattcgcactggatacgac**TAGAGC**
+
