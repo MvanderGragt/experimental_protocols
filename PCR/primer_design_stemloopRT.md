@@ -6,5 +6,5 @@ For the end point PCR a universal reverse primer (GTGCAGGGTCCGAGGT, Tm 55.9&deg;
 The forward primer needs to be miRNA specific. This consists of the miRNA sequence converted to DNA, 
 of which 6 nt at the 3’-end are removed. At the 5’-end nts are added to increase the Tm equal to the Tm of the reverse primer.
 
-![stemloopRT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2225395/bin/1746-4811-3-12-1.jpg)
-*Varkonyi-Gasic et al., 2007
+![stemloopRT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2225395/bin/1746-4811-3-12-1.jpg)<br/>
+*Varkonyi-Gasic et al., 2007*
