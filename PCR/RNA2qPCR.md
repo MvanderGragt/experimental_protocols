@@ -59,6 +59,7 @@
 1.  2’ 50°C<br/>
 2.  15’ 95°C<br/>
 3.  15’’ 95°C, 1’ 60°C, 45 cycles<br/>
+
 •	add dissociation stage<br/>
 •	save as, save in your folder as sds<br/>
 •	put samples in machine, close, press start and wait until run starts<br/>
