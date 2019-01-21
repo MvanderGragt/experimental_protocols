@@ -1,10 +1,10 @@
-Q-PCR
+# From RNA to Q-PCR
 
-RNA isolation
+## RNA isolation
 •	make sure to have at least 3 biological replicates
 •	isolate clean total RNA (kit or phenol), there should be no degradation
 
-DNase treatment of isolated RNA (TURBO DNase kit Ambion)
+## DNase treatment of isolated RNA (TURBO DNase kit Ambion)
 •	RNA in 45 µl H2O dd 
 •	add 5 µl 10x buffer and 0,5 µl DNase
 •	20’ 37°C
@@ -14,7 +14,7 @@ DNase treatment of isolated RNA (TURBO DNase kit Ambion)
 •	pipette off RNA into clean tube without disturbing the pellet
 •	nanodrop and/or put on gel to check integrity and quantify carefully
 
-cDNA synthesis (Revert Aid kit Fermentas)
+## cDNA synthesis (Revert Aid kit Fermentas)
 •	include NAC and NTC (see below)
 •	0,5-2 µg total RNA
 •	add 1 µl oligo(dT)18
@@ -28,7 +28,7 @@ cDNA synthesis (Revert Aid kit Fermentas)
 •	10’ 70°C, chill on melting ice
 •	when used 1 µg you count with RNA equivalent concentration of 50 ng µl-1 
 
-Preparation Q-PCR
+## Preparation Q-PCR
 •	check all cDNA samples with normal PCR (check: primer dimers, gDNA, cDNA integrity)
 •	dilute to equivalent of 10 ng RNA for all samples
 •	to calculate primer efficiencies take cDNA sample expected to have the highest expression and make dilution range: 1x-4x-16x-64x-256x (1x = 10 ng)
@@ -37,7 +37,7 @@ Preparation Q-PCR
 •	make H2O control: water sample for each primer pair on each plate; test primer dimers 
 •	dilute primers from stock (filter-tips!) to 10 µM working stocks
 
-Q-PCR
+## Q-PCR
 •	work on ice, not in strong daylight, work fast
 •	see excel sheet for pipetting scheme
 •	make MasterMix: 	5x EvaGreen Mix / ROX / water
@@ -48,7 +48,7 @@ Q-PCR
 •	add NAC and NTC controls on the plate
 •	add dilution range for each primer pair on the plate
 
-Machine
+## Machine
 •	switch on and check the if the holder is right for strip or plate
 •	start computer,  open 7500 system software
 •	file / new / absolute quantification / next
@@ -63,14 +63,13 @@ Machine
 •	add dissociation stage
 •	save as, save in your folder as sds
 •	put samples in machine, close, press start and wait until run starts
-
 •	result / amplification / 
 •	select Rn vs cycle and set baseline (where all curves are flat)
-•	deltaRn vs cycle and set manual Ct to point where a) all curves still linear b) nicely parallel to each other c) having largest distance from each other
+•	deltaRn vs cycle and set manual Ct to point where *a) all curves still linear b) nicely parallel to each other c) having largest distance from each other
 •	press analyse
 •	export your data to file and also to memory-stick: file / export / results / cvs
 
-Quality Checks
+## Quality Checks
 •	check raw data for strange amplification curves: both in Rn vs cycle and deltaRn vs cycle. 
 •	curves should be parallel in log-linear phase, certain samples might have abnormal amplification efficiency.
 •	check dissociation curves (Tdissociation should be equal in all reactions)
@@ -79,9 +78,9 @@ Quality Checks
 •	check NAC control for amplification of gDNA. If Tm of NAC fragment is different, check that NAC fragment is not present in target reactions. If Tm is not very different, Ct value should be at least 5 higher than of the target reaction.
 •	primer specificity: only one clear curve should be present in the dissociation analysis
 •	check primer efficiencies in dilution series; should be around 2 (double each cycle). Plot the log of cDNA concentration against the Ct value. (see excel calculation sheet).
-•	
-Calculations
-•	Open in CSV-file and save it as EXEL
+
+##Calculations
+•	Open in CSV-file and save it as EXCEL
 •	Determine the primer efficiency (see calculation sheet)
 •	Take average Ct of technical replicates
 •	Calculate the RQ (relative quantification: =1/(2,0 ^ Ct)
