@@ -25,10 +25,9 @@ To make the temperature equal to that of the universal reverse primer (GTGCAGGGT
 ggacTTTGGATTGAAGGGA, Tm = 55&deg;C<br/>
 
 #### Stemloop RT
-To make the RT primer (used for reverse transcriptase) take the miRNA sequence, convert to DNA and than complement.
-Add to the universal RT primer (TCGTATCCAGTGCAGGGTCCGAGGTATTCGCACTGGATACGAC) the last 6 nucleotides in reverse order (last nucleotide first, than 5th, 4th, 3rd, 2nd and first).
+To make the RT primer (used for reverse transcriptase) take the miRNA sequence, convert to DNA and than reverse complement.
+Add to the universal RT primer (TCGTATCCAGTGCAGGGTCCGAGGTATTCGCACTGGATACGAC) the first 6 nucleotides of the reverse complemented sequence.
 
-AAACCTAACTTCCCTCGAGAT, comp<br/>
 **TAGAGC**TCCCTTCAATCCAAA, revcomp<br/>
 
 *RT primer:*&nbsp;&nbsp;&nbsp;gtcgtatccagtgcagggtccgaggtattcgcactggatacgac**TAGAGC**
