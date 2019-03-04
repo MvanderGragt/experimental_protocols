@@ -19,7 +19,7 @@ TTTGGATTGAAGGGA**GCTCTA**, DNA<br/>
 
 *forward primer:*<br/>
 TTTGGATTGAAGGGA, Tm = 40.6&deg;C (calculated with OligoCalc, salt adjusted)<br/>
-To make the temperature equal to that of the universal reverse primer (GTGCAGGGTCCGAGGT, Tm = 55.9&deg;C, some nts are added.<br/>
+To make the temperature equal to that of the universal reverse primer (GTGCAGGGTCCGAGGT, Tm = 55.9&deg;C, some nts are added at the 5'.<br/>
 
 *forward primer (inc. extra nt):*<br/>
 ggacTTTGGATTGAAGGGA, Tm = 55&deg;C<br/>
